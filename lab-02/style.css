@@ -1,0 +1,53 @@
+body {
+  margin: 0;
+}
+nav {
+  display: flex;
+  flex-direction: column;
+  background-color: aquamarine;
+  flex-basis: 15vw;
+  flex-shrink: 0;
+}
+
+nav a {
+  background-color: aquamarine;
+  color: black;
+  padding: 0.25em 0.5em;
+  /* margin-right: auto; */
+  text-decoration: none;
+  transition: background-color 0.5s;
+}
+
+nav a:hover {
+  background-color: dodgerblue;
+}
+
+header,
+section {
+  padding: 0 0.5em;
+}
+
+head,
+section,
+main {
+  overflow: auto;
+}
+
+header {
+  background-color: blueviolet;
+}
+nav,
+main {
+  box-sizing: border-box;
+}
+
+section {
+  background-color: cornflowerblue;
+  color: black;
+  overflow: auto;
+}
+
+main {
+  display: flex;
+  flex-direction: row-reverse;
+}
